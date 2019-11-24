@@ -12,4 +12,20 @@ public class Controller {
             alert.show();
         }
 
+    public void mostrarMensajes2(ActionEvent actionEvent){
+        System.out.println("mostrando mensajes");
+        Alert alert2 = new Alert(Alert.AlertType.CONFIRMATION,
+                "la vida perro");
+        alert2.show();
+    }
+
+    public void mostrarMensajes22(ActionEvent actionEvent){
+        System.out.println("mostrando mensajes");
+        Alert alert22 = new Alert(Alert.AlertType.CONFIRMATION,
+                "la vida perro");
+        alert22.show();
+    }
+
+
+
 }
